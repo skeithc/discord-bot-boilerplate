@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot-boilerplate",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun index.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}
