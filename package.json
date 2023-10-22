@@ -10,12 +10,19 @@
     "bun-types": "latest",
     "eslint": "^8.52.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-airbnb-typescript": "^17.1.0"
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "discord.js": "^14.13.0"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix"
+    ]
   }
 }
